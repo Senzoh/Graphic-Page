@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #ffa1f1;
+    background-image:url(images/web_background.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "Arial Black", "Comic Sans";
+   
+}
+
+.header{
+    text-align: center;
+}
+
+.header h1{
+    font-size: 60px;
+    color: white;
+    text-shadow: 2px 2px #00d4c3;
+    padding: 20px;
+}
+
+nav{
+    /* Navigation Bar */
+    width: auto;
+    height: 0x;
+    padding: 35px;
+    text-align: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    /* background-color: chartreuse; */
+}
+
+nav ul{
+
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a{
+    font-size: 25px;
+    display: block;
+    text-decoration: none;
+    padding: 0 20px;
+    color: white;
+    text-shadow: 2px 2px #00d4c3;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+}
+
+.selected{
+    color: #ff43e3;
+    text-decoration: underline;
+}
+
+.content{
+    /* content of website  */
+    margin: 0 auto;
+    height: auto;
+    width: 1000px;
+    background-color: #ffa1f1;
+}
+
+.content h1{
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px #00d4c3;
+    text-align: center; 
+    padding: 20px;
+    
+}
+
+.graphic{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.content h2{
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px #00d4c3;
+    text-align: center; 
+    padding: 40px;
+    text-decoration: underline;
+}
+
+.content h3{
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px #00d4c3;
+    /* text-align: center;  */
+    padding: 20px;
+}
+
+.content section{
+    padding-bottom: 20;
+}
+
+.content p{
+    font-size: 18px;
+    color: white;
+    text-shadow: 2px 2px black;
+    padding-bottom: 10px;
+}
+
+.picture_column{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.footer{
+    padding: 50px;
+    color: wheat;
+    text-shadow: 2px 2px black;
+}
